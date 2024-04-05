@@ -25,7 +25,8 @@ public class Lsta {
         System.out.println("Inicio da Lista = " + lista.getInicio().getElemento());
         System.out.println("Fim da Lista = " + lista.getFim().getElemento());
  
-         
+        
+        System.out.println(lista.buscar("Miguel"));
         
               
        }

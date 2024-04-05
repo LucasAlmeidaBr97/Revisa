@@ -99,6 +99,18 @@ public class ListaEncadeada<Tipo> {
         }
     }
     
+    public No buscar(Tipo elemento){
+        No atual = this.inicio;
+        for(int i = 0; i < this.tamanho; i++){
+            if(atual.getElemento().equals(elemento)){
+                return atual;
+            }
+            atual = atual.getProximo();
+        }
+        
+        return atual;
+        
+    }
     
     
     
